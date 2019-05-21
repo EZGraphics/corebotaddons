@@ -9,7 +9,7 @@ Corebot is a self-hosted discord bot made by Revive.  You can buy it [here](http
 #### How to submit a ISSUE
 You can submit it [here](https://github.com/evanspy1/corebotaddons/issues/new?assignees=&labels=&template=submission.md&title=Submission) as an issue.
 #### How to submit a PULL REQUEST
-COMING SOON!
+Fork the respatory, make all your changes to the forked version, and submit a pull request.  You can find more information [here](https://help.github.com/en/articles/about-pull-requests)!
 
 ## Addons List - After I accept addons their Name, Description, and Author will be here.
 
