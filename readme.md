@@ -11,9 +11,9 @@ You can submit it [here](https://github.com/evanspy1/corebotaddons/issues/new?as
 
 ## Commands List - After I accept commands their Name, Description, and Author will be here.
 1. [serverstats.js](https://github.com/evanspy1/corebotaddons/blob/master/commands/serverstats.js)
-⋅⋅* Server Stats
-⋅⋅* Shows some of your Dicord server's statistics
-⋅⋅* By: Ru Kira#9545
+* Server Stats
+*⋅ Shows some of your Dicord server's statistics
+* By: Ru Kira#9545
 
 ## Rules
 There are only a few, but please follow them:
