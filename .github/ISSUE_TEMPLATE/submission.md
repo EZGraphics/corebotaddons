@@ -1,6 +1,6 @@
 ---
 name: Submission
-about: Submit a addon or command/
+about: Submit a addon or command
 title: ''
 labels: ''
 assignees: ''
