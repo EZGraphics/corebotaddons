@@ -1,6 +1,9 @@
 const Discord = require("discord.js");
+const fs = require("fs");
+let yml = require("../yml.js")
 
 module.exports.run = async (bot, message, args) => {
+  const config = await yml("./config.yml");
     function checkDays(date) {
         let now = new Date();
         let diff = now.getTime() - date.getTime();
@@ -27,6 +30,7 @@ module.exports.run = async (bot, message, args) => {
     };
     const embed = new Discord.RichEmbed()
         .setAuthor(message.guild.name, message.guild.iconURL)
+        .setColor(config.Color)
         .addField("Name", message.guild.name, true)
         .addField("ID", message.guild.id, true)
         .addField("Owner", `${message.guild.owner.user.username}#${message.guild.owner.user.discriminator}`, true)
@@ -41,5 +45,5 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.help = {
-  name:"serverstats"
+  name: "serverstats"
 }
